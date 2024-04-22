@@ -1,0 +1,284 @@
+/*CSS style doccument Wesley Kane*/
+*{
+    font-family:mainFont;
+    padding: 0px;
+    margin: 0px;
+}
+.center{
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+}
+h2{
+   color:white;
+   text-align:center;
+   width:70%;
+   margin-left:auto;
+   margin-right:auto;
+}
+.small{
+   width:40%;
+   margin-left:auto;
+   margin-right:auto;
+}
+.socialImg{
+   width:10%;
+}
+#webname{
+    background-color:var(--myBlu);
+    color: var(--myGray);
+}
+
+.headImg{
+   max-height:1000px;
+}
+
+.hover:hover{
+   background-color:grey;
+}
+h3{
+   color:white;
+   text-align:center;
+   width:70%;
+   margin-left:auto;
+   margin-right:auto;
+}
+h4{
+   font-weight:bold;
+   text-align:center;
+   width:70%;
+   margin-left:auto;
+   margin-right:auto;
+}
+.BlkTxt{
+   color:black;
+}
+
+#banner{
+   width:60%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url('../static/images/banner.png');
+   background-repeat: repeat-x;
+}
+
+.classA {
+   width: 49%;
+   display:inline-block;
+   color:white;
+   padding:5px;
+   vertical-align:text-top;
+   text-align:center;
+ }
+
+nav{
+   background-color: var(--siteDarkPink);
+   margin-right:auto;
+   margin-left:auto;
+   text-align:center;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin: -5px;
+    margin-right: 15px;    margin-right: 15px;
+    font-size: x-large;
+    color: white;
+ }
+ nav a:hover {
+   background-color: var(--siteBlu);
+ }
+ txt{
+   vertical-align:top;
+ }
+ 
+header{
+   margin-top:0px; 
+}
+
+ body{
+    background-color: var(--siteBlu);
+ }
+ footer{
+   background-color: var(--siteLightPink);
+   text-align:center;
+   padding:20px;
+ }
+
+#h3{
+   background-color:gray;
+   padding:10px;
+}
+#h3:hover{
+   background-color: rgba(0,0,0,0.8);
+}
+#h3{
+   background-color:gray;
+}
+
+:root {
+    --siteBlu: #49c6e5;
+    --siteLightPink: #33658a;
+    --siteDarkPink: #fda116;
+ }
+ img{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    display:inline;
+ }
+ p{
+   width:45%;
+ }
+ .pink{
+   background-color: var(--siteLightPink);
+ }
+h1{
+   font-family: headerFont;
+   text-align:center;
+   color:white;
+   font-weight:bold;
+}
+a{
+   font-family: headerFont;
+}
+ @font-face {
+    font-family: mainFont;
+    src: url(../static/Oswald/Oswald-VariableFont_wght.ttf);
+ }
+ @font-face {
+   font-family: headerFont;
+   src: url(../static/Roboto/Roboto-Medium.ttf);
+}
+
+
+/*Slideshow code from Source: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width:50%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+table{
+   margin-left:auto;
+   margin-right:auto;
+}
+table tr:hover {
+   background-color: var(--siteDarkPink);
+}
+
+table tr {
+   background-color: var(--siteBlu);
+}
+
+ table tr:nth-child(even):hover {
+   background-color: var(--siteBlu);
+}
+table tr:nth-child(even):hover {
+   background-color: var(--siteBlu);
+}
+table tr:nth-child(even) {
+   background-color: var(--siteBlu);
+   color: white;
+}
+
+ul{
+   text-align:left;
+}
+
+button{
+   background-color: var(--siteDarkPink);
+   padding:10px;
+}
+
+hr {
+   border: 1px solid black;
+ }
